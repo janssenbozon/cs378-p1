@@ -7,3 +7,44 @@ body {
   width: auto;
   height: 50px;
 }
+
+#slogan {
+  color: orange;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: flex-end;
+  height: 40px;
+}
+
+#slogan-2 {
+  color: lightslategray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 40px;
+  font-style: italic;
+}
+
+.food-container {
+  margin: 10px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-image {
+  width: 150px;
+  height: 100px;
+}
+
+.food-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: medium;
+  white-space: nowrap;
+}
+
+.food-button {
+  border-color: black;
+  background-color: lightblue;
+  border-radius: 10px;
+  width: auto;
+  height: 30px;
+}
