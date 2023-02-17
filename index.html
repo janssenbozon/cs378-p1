@@ -33,8 +33,11 @@
                 $5
               </div>
             </div>
-            <div class="row justify-content-left align-items-center" style="height: 50px; padding: 12px;">
-              <button class="food-button">order</button>
+            <div class="row justify-content-end" style="height: 50px;">
+              <div class="col-6"></div>
+              <button id="mac&cheese" class="food-button-plus col-2">+</button>
+              <text id="mac&cheese-text" class="food-button-text col-2">0</text>
+              <button id="mac&cheese" class="food-button-minus col-2">-</button>
             </div>
           </div>
         </div>
@@ -51,8 +54,11 @@
                 $18
               </div>
             </div>
-            <div class="row justify-content-left align-items-center" style="height: 50px; padding: 12px;">
-              <button class="food-button">order</button>
+            <div class="row justify-content-end" style="height: 50px;">
+              <div class="col-6"></div>
+              <button id="steak" class="food-button-plus col-2">+</button>
+              <text id="steak-text" class="food-button-text col-2">0</text>
+              <button id="steak" class="food-button-minus col-2">-</button>
             </div>
           </div>
         </div>
@@ -69,8 +75,11 @@
                 $3
               </div>
             </div>
-            <div class="row justify-content-left align-items-center" style="height: 50px; padding: 12px;">
-              <button class="food-button">order</button>
+            <div class="row justify-content-end" style="height: 50px;">
+              <div class="col-6"></div>
+              <button id="donuts" class="food-button-plus col-2">+</button>
+              <text id="donuts-text" class="food-button-text col-2">0</text>
+              <button id="donuts" class="food-button-minus col-2">-</button>
             </div>
           </div>
         </div>
@@ -87,14 +96,28 @@
                 $7
               </div>
             </div>
-            <div class="row justify-content-left align-items-center" style="height: 50px; padding: 12px;">
-              <button class="food-button">order</button>
+            <div class="row justify-content-end" style="height: 50px;">
+              <div class="col-6"></div>
+              <button id="foccacia" class="food-button-plus col-2">+</button>
+              <text id="foccacia-text" class="food-button-text col-2">0</text>
+              <button id="foccacia" class="food-button-minus col-2">-</button>
             </div>
           </div>
         </div>
         <!-- END OF ITEMS -->
         <hr/>
+        <!-- SUBTOTAL + CHECKOUT -->
+        <div class="row justify-content-center">
+          <text id="subtotal" class="col-5" style="font-size: 20px;"> Subtotal: $0 </text>
+          <div  class="col-1"></div>
+          <button id="order-button" class="order-button col-2">Order</button>
+          <div  class="col-1"></div>
+          <button id="clear-button" class="clear-button col-2">Clear All</button>
+        </div>
       </div>
     </div>
+
+    <script src="script.js"></script>
+
   </body>
 </html>

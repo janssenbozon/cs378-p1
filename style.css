@@ -41,9 +41,46 @@ body {
   white-space: nowrap;
 }
 
-.food-button {
+.food-button-plus {
+  border-color: black;
+  background-color: white;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-button-minus {
+  border-color: black;
+  background-color: white;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-button-text {
+  font-size: 15px;
+  
+}
+
+.order-button {
   border-color: black;
   background-color: lightblue;
+  border-radius: 10px;
+  width: auto;
+  height: 30px;
+}
+
+.clear-button {
+  border-color: black;
+  background-color: gray;
   border-radius: 10px;
   width: auto;
   height: 30px;
